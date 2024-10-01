@@ -1,6 +1,6 @@
 name: R Package CI
 
-on: [ push, push_request ]
+on: [ push, pull_request ]
 
 jobs:
   build:
