@@ -18,3 +18,14 @@ load_mat <- function(infile){
 
 
 
+#' Sum function
+#'
+#' This is a dummy function set up to test the package
+#'
+#' @param a The first number
+#' @param b The second number
+#' @return The sum of these two numbers
+#' @export
+sum_two_nums <- function(a, b){
+  a + b
+}
